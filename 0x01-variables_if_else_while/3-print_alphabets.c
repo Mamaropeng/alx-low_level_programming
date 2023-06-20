@@ -2,7 +2,7 @@
 
 /**
  * main -Entry point
- * Description: 'print lowercase  uppercase alphabets'
+ * Description: 'print lowercase and uppercase alphabets'
  * Return: Always 0 (success)
  *
  */
