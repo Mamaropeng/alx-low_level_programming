@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * print_alphabet in lower case
+ * Description:  'print_alphabet in lower case'
  * Return: void
  */
 void print_alphabet(void)
