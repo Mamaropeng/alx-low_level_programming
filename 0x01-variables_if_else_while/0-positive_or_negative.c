@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: check negative or positive
+ * main - entry point
+ * Description: 'check if the number is negative, positive or zero'
  * Return: Always 0
  *
  */
@@ -14,20 +14,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-}
-	var_if
-	(n ^ > 0) :
-{
-		printf("if n is greater than 0 %d is positive,\n")
-	else if
-		(n == 0) :
-{
-		printf("if n is equal to 0 then %d is zero,\n");
-}
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
 	else
-	(n < 0) :
-{
-		printf("if n is less than 0 then %d is negative,\n");
+	{
+		printf("%d is negative\n", n);
+	}
 	return (0);
 }
 
