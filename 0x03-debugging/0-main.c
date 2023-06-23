@@ -4,7 +4,6 @@
  * main - entry point
  * Description: ' tests function that print if integer is positive or negative
  * Return: 0 (success)
- *
  */
 int main(void)
 {
