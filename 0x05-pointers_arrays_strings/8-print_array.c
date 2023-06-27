@@ -10,15 +10,15 @@
  */
 void print_array(int *x, int y)
 {
-	int a;
+	int z;
 
-	for (a = 0; a < y; a++)
+	for (z = 0; z < y; z++)
 	{
-	printf("%d", x[a]);
-	if (a != (y - 1))
-	{
-	printf(",");
+		printf("%d", x[z]);
+		if (z != (y - 1))
+		{
+			printf(",");
+		}
 	}
-	}
-	printf('\n');
+	printf("\n");
 }
