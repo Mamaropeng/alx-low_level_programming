@@ -12,17 +12,17 @@
 int main(void)
 {
 	int password[100];
-	int x, sum, n;
+	int i, sum, n;
 
 	sum = 0;
 
 	srand(time(NULL));
 
-	for (x = 0; x < 100; x++)
+	for (i = 0; i < 100; i++)
 	{
-		password[x] = rand() % 78;
-		sum += (password[x] + '0');
-		putchar(password[x] = '0');
+		password[i] = rand() % 78;
+		sum += (password[i] + '0');
+		putchar(password[i] + '0');
 		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum - '0';
