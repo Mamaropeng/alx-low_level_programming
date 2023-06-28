@@ -14,10 +14,10 @@ void print_array(int *x, int y)
 
 	for (z = 0; z < y; z++)
 	{
-		printf("%d", x[   z]);
+		printf("%d", x[z]);
 		if (z != (y - 1))
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	printf("\n");
