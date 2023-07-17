@@ -1,1 +1,1 @@
-Low level C programming readme
+0x0E. C - Structures, typedef
