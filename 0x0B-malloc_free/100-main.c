@@ -4,8 +4,8 @@
 
 /**
  * main - check the code for ALX School students.
- * @ac: argument count
- * @av: argument vector
+ * @ac: ...
+ * @av: ...
  *
  * Return: Always 0.
  */
